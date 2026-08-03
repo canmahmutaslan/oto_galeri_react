@@ -1,6 +1,6 @@
-import {
-    createBrowserRouter
-} from "react-router-dom";
+import { createBrowserRouter } from "react-router-dom";
+
+import MainLayout from "../layouts/MainLayout";
 
 import Home from "../pages/Home";
 import Vehicles from "../pages/Vehicles";
@@ -11,34 +11,42 @@ import Contact from "../pages/Contact";
 import NotFound from "../pages/NotFound";
 
 const router = createBrowserRouter([
-    {
-        path: "/",
+  {
+    path: "/",
+    element: <MainLayout />,
+
+    children: [
+      {
+        index: true,
         element: <Home/>,
-    },
-    {
-        path : "/araclar",
-        element : <Vehicles/>
-    },
-    {
-        path : "/arac/:id",
-        element : <VehicleDetail/>
-    },
-    {
-        path : "/hakkimizda",
-        element : <About/>
-    },
-    {
-        path : "/hizmetler",
-        element : <Services/>
-    },
-    {
-        path : "/iletisim",
-        element : <Contact/>
-    },
-    {
-        path : "*",
-        element : <NotFound/>
-    },
+      },
+      {
+        path: "araclar",
+        element: <Vehicles/>,
+      },
+      {
+        path: "arac/:id",
+        element: <VehicleDetail/>,
+      },
+      {
+        path: "hakkimizda",
+        element: <About/>,
+      },
+      {
+        path: "hizmetler",
+        element: <Services/>,
+      },
+      {
+        path: "iletisim",
+        element: <Contact/>,
+      },
+    ],
+  },
+
+  {
+    path: "*",
+    element: <NotFound/>,
+  },
 ]);
 
 export default router;

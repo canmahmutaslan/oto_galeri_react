@@ -1,0 +1,54 @@
+/* NAVBAR HEPSİ */
+nav
+{
+    background-color:#0F172A;
+    height:80px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:0 80px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow:0 3px 12px rgba(0,0,0,.15) ;
+}
+/* NAVBAR HEPSİ */
+
+/* LOGO */
+nav h2
+{
+    color:white;
+    font-size:28px;
+    letter-spacing:2px;
+    cursor:pointer;
+}
+/* LOGO */
+
+/* MENÜ */
+nav ul{
+    display:flex;
+    list-style:none;
+    gap:35px;
+}
+/* MENÜ */
+
+/* LİNKLER */
+nav a{
+    color:white;
+    text-decoration:none;
+    font-size:17px;
+    font-weight:500;
+    transition:.3s;
+    display: inline-block;
+}
+/* LİNKLER */
+
+/* HOVER İÇİN */
+nav a:hover{
+    color:#D4AF37;
+    transform: translateY(-2px);
+}
+nav a.active{
+    color:#D4AF37;
+}
+/* HOVER İÇİN */

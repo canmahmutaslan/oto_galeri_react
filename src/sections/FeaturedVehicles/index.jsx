@@ -1,5 +1,4 @@
 import "./FeaturedVehicles.css";
-
 import vehicles from "../../data/vehicles";
 import VehicleCard from "../../components/VehicleCard";
 

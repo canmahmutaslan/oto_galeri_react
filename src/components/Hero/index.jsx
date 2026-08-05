@@ -6,10 +6,10 @@ function Hero() {
 
             <div className="hero-content">
 
-                <h1>Hayalinizdeki Aracı Keşfedin</h1>
+                <h1>Aracınızı Keşfedin</h1>
 
                 <p>
-                    her bütçeye uygun,ekspertiz onaylı ve güvenilir araçları sizlerle buluşturuyoruz.
+                    her bütçeye uygun,ekspertiz onaylı.
                 </p>
 
                 <div className="hero-buttons">

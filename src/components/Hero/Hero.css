@@ -2,12 +2,9 @@
     display:flex;
     justify-content:space-between;
     align-items:center;
-
     max-width:1300px;
     margin:0 auto;
-
     min-height:calc(100vh - 80px);
-
     padding:0 80px;
 }
 
@@ -65,7 +62,6 @@
     display:flex;
     justify-content:center;
     align-items:center;
-
     color:white;
     font-size:28px;
     font-weight:bold;

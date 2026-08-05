@@ -10,6 +10,8 @@ const vehicles = [
         brand:"BMW",
         model:"M4 Competition",
         year:2023,
+        fuel:"benzin",
+        gearbox:"Otomatik",
         price:"1.000.000 ₺",
         image:BMW
     },
@@ -19,6 +21,8 @@ const vehicles = [
         brand:"Audi",
         model:"RS7",
         year:2022,
+        fuel:"Benzin",
+        gearbox:"Otomatik",
         price:"1.500.000 ₺",
         image:Audi
     },
@@ -28,6 +32,8 @@ const vehicles = [
         brand:"Mercedes",
         model:"C63 AMG",
         year:2024,
+        fuel:"Benzin",
+        gearbox:"Otomatik",
         price:"2.000.000 ₺",
         image:c63
     }

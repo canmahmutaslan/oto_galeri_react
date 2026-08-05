@@ -1,0 +1,13 @@
+.why-choose{
+    padding:80px;
+}
+.why-choose h2{
+    text-align:center;
+    font-size: 35px;
+    color: white;
+}
+.choose-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}

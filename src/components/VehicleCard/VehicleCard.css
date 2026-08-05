@@ -1,64 +1,88 @@
-.vehicle-card {
-    background: #1E293B;
-    border-radius: 12px;
-    overflow: hidden;
-    transition: all .3s ease;
+.vehicle-card{
+    background:#1E293B;
+    border-radius:15px;
+    overflow:hidden;
+
+    transition:.3s;
+
+    cursor:pointer;
 }
 
-.vehicle-card:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
+.vehicle-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 15px 35px rgba(0,0,0,.35);
 }
 
-.vehicle-card img {
-    width: 100%;
-    height: 230px;
-    object-fit: contain;
-    padding: 20px;
-    transition: transform .4s ease;
+.vehicle-card img{
+    width:100%;
+    height:240px;
+
+    object-fit:contain;
+
+    padding:20px;
+
+    transition:.4s;
 }
 
-.vehicle-card:hover img {
-    transform: scale(1.05);
+.vehicle-card:hover img{
+    transform:scale(1.05);
 }
 
-.vehicle-info {
-    padding: 20px;
+.vehicle-info{
+    padding:25px;
 }
 
-.vehicle-info h3 {
-    color: #FFFFFF;
-    font-size: 22px;
-    margin-bottom: 10px;
+.vehicle-info h3{
+    color:white;
+    font-size:24px;
+
+    margin-bottom:20px;
 }
 
-.vehicle-info p {
-    color: #B8B8B8;
-    font-size: 15px;
-    line-height: 1.6;
-    margin-bottom: 15px;
+.vehicle-details{
+    display:flex;
+
+    flex-direction:column;
+
+    margin-bottom:20px;
 }
 
-.vehicle-info h4 {
-    color: #D4AF37;
-    font-size: 24px;
-    margin-bottom: 20px;
+.vehicle-details span{
+    color:#B8B8B8;
+
+    font-size:15px;
+
+    margin-bottom:10px;
 }
 
-.vehicle-info button {
-    width: 100%;
-    padding: 14px;
-    border: none;
-    border-radius: 8px;
-    background: #D4AF37;
-    color: #0F172A;
-    font-size: 16px;
-    font-weight: 700;
-    cursor: pointer;
-    transition: all .3s ease;
+.vehicle-info h4{
+    color:#D4AF37;
+
+    font-size:26px;
+
+    margin-bottom:20px;
 }
 
-.vehicle-info button:hover {
-    background: #e6bf4d;
-    transform: translateY(-2px);
+.vehicle-info button{
+    width:100%;
+
+    padding:14px;
+
+    border:none;
+
+    border-radius:8px;
+
+    background:#D4AF37;
+
+    color:#0F172A;
+
+    font-weight:bold;
+
+    cursor:pointer;
+
+    transition:.3s;
+}
+
+.vehicle-info button:hover{
+    background:#e5bc3c;
 }

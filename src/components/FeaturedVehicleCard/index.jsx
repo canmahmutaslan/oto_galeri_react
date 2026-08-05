@@ -1,4 +1,4 @@
-import "./VehicleCard.css";
+import "./FeaturedVehicleCard.css";
 
 function VehicleCard({ vehicle }) {
     return (
@@ -12,15 +12,7 @@ function VehicleCard({ vehicle }) {
                     {vehicle.brand} {vehicle.model}
                 </h3>
 
-                <div className="vehicle-details">
-
-                    <span>📅 {vehicle.year}</span>
-
-                    <span>⛽ {vehicle.fuel}</span>
-
-                    <span>⚙️ {vehicle.gearbox}</span>
-
-                </div>
+                <p>{vehicle.year}</p>
 
                 <h4>{vehicle.price}</h4>
 
